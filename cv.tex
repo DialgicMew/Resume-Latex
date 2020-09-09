@@ -1,0 +1,169 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{fontawesome}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    {#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\projectItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Vatsalya Singh}} & \faEnvelope \hspace{1pt} \href{mailto:vatsalyasingh218@gmail.com}{vatsalyasingh218@gmail.com}\\
+   4\textsuperscript{th}  Year Undergraduate & \faPhone \hspace{1pt}\href{tel:7011589138}{+91-7011-589-138} \\
+  Department Of Computer Science Engineering  & \faLinkedin \hspace{1pt} \href{https://www.linkedin.com/in/vatsalyasingh/}{Vatsalya Singh} \\
+    Sikkim Manipal Institute of technology, Majitar, East Sikkim, India & \faGithub \hspace{1pt}\href{https://github.com/DialgicMew}{DialgicMew} \\
+
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sikkim Manipal Institute of Technology}{Sikkim, India}
+      {B.Tech in Computer Science and Engineering;  CGPA: 8.10}{Aug. 2017 -- On-Going}
+    \resumeSubheading
+      {Ahlcon International School}{Delhi, India}
+      {Senior Secondary Education(CBSE), PCM;  Percent: 73.4\%}{May. 2015 -- March. 2017}
+      \resumeSubheading
+      {Delhi Public School}{Noida, India}
+      {High School Education;  CGPA: 9.20}{April. 2003 -- March. 2015}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Deutsche Telekom Digital Labs}{Gurugram, India}
+      {Intern}{June. 2020 – Aug. 2020}
+      \resumeItemListStart
+        \resumeItem{Tensorflow}
+         {My internship here at DTDL was an amazing learning experience. I completed 3 projects and 1 POC successfully. My projects have been deployed on the company servers and are being used by the employees daily. I worked on Kibana, wherein I learned about data visualization. I worked on Jenkins; a tool that is used for CI/CD pipeline creation, to save precious amounts of time for the Dev team.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Tech Mahindra}{Intern June. 2019 – July. 2019}
+      {Intern}{Intern June. 2019 – July. 2019}
+      \resumeItemListStart
+        \resumeItem{Tensorflow}
+         {I worked as a web development intern at Tech Mahindra. I had a very dynamic role during the time there. I worked on CSS correction for most of the time, my duties were also of analysing SRS of multiple projects. I worked with a team of developers who were very skilled at their work. They guided me and helped me overcome the challenges I faced.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Reliance Industries LTD.}{Mumbai, India}
+      {Intern}{May. 2019 – June. 2019}
+      \resumeItemListStart
+        \resumeItem{Tensorflow}
+         {I worked as a web development intern at Reliance Industries ltd., Navi Mumbai. I was assigned to a project on chatbots based to Natural Language processing. I used a tool by Google called DialogFlow for the same. The development was done using NodeJS, Angular and database was maintained in Firebase which was done by DialogFlow.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Lava international}{Noida, India}
+      {Intern}{May. 2018 - June. 2018}
+      \resumeItemListStart
+        \resumeItem{Tensorflow}
+         {I worked as an intern at Lava International, Noida for about 30 days in which I learnt about database handling and connectivity using Java. I learnt bits and pieces of PHP which was required for connection to the database.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \projectItem{GuruChela App}
+      {GuruChela is a cross-platform application for a client (Mrs. Swati Kumari) which aims to connect teachers and students. This application is on the Play Store and can be found at \href{http://bit.ly/GuruChela}{\textcolor{BurntOrange}{GuruChela}}.}
+    \projectItem{Thank You Board Web-App}
+      {A public thankyou board built on React, Node.js, MongoDB, and Socket.io. It is Web-App in which a team can create a board and use to it thank each other in Realtime by leaving real looking post-it notes.}
+    \projectItem{London Street Mobile App}
+      {Food delivery system as a project for a restaurant. Understanding the client's exact needs and delivering a personalised product for him was a tough task.}
+    \projectItem{P2p Food Delivery System}
+      {Created a cross-platform e-commerce application which will make homemade food available to everyone. The idea behind the project was to provide for homemakers with a platform.}
+    \projectItem{Virtual Assistant Web-App}
+      {This app is a virtual assistant and works as a chatbot as well; built using DialogFlow, Angular, NodeJS. This application can be trained for multiple day to day purposes.}
+    \projectItem{E-Commerce Website}
+      {My first freelance project which is for client (Mrs. Sapna Bhushan). It is a simple well-designed e-commerce website built on basic technologies like HTML, CSS, JavaScript.\href{https://www.tilkutkhaja.com/}{\textcolor{BurntOrange}{TilkutKhaja}}}
+
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: C++, Dart, C, JavaScript, Java, Python, SQL}
+     
+   }
+   \item{
+     \textbf{Technologies}{: Flutter, React.js, Jenkins, Node.js, MongoDB, FireBase, Kibana }
+   }
+   
+   
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
